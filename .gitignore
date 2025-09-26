@@ -1,0 +1,10 @@
+__pycache__/
+*.log
+
+cnn_models_roi_on_fly/
+crop_dataset/
+
+index/
+results/
+
+crops/

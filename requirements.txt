@@ -1,0 +1,23 @@
+# Core: PyTorch with CUDA 12.1 (compatible with CUDA 12.8)
+torch==2.3.0+cu121
+torchvision==0.18.0+cu121
+torchaudio==2.3.0+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Hugging Face OWLv2 model
+transformers==4.41.2
+
+# Vision + utility libraries
+Pillow>=10.0.0
+matplotlib>=3.7
+scipy>=1.10
+numpy>=1.24
+
+# Optional: for progress bars, future extensibility
+tqdm>=4.64
+
+
+
+pycparser==2.23
+
+scikit-learn==1.7.2 
